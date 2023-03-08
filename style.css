@@ -1,0 +1,18 @@
+body {
+    font-size: 20px;
+}
+
+.pfp-column {
+    width: 30%;
+    float: left;
+}
+
+#pfp {
+    padding: 30px;
+}
+
+.info-column {
+    width: 70%;
+    float: left;
+
+}
