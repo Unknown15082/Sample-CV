@@ -1,9 +1,15 @@
 body {
     font-size: 20px;
+    background-color: lightskyblue;
 }
 
-.pfp-column {
-    width: 30%;
+#personal-information {
+    overflow: auto;
+    margin: 10vh 10vw;
+    background-color: white;
+}
+
+#pfp-column {
     float: left;
 }
 
@@ -11,8 +17,32 @@ body {
     padding: 30px;
 }
 
-.info-column {
-    width: 70%;
+#info-column {
     float: left;
+}
 
+#skills {
+    margin: 10vh 10vw;
+    background-color: white;
+}
+
+#skills-grid {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.skill {
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    background-color: gold;
+}
+
+.level {
+    padding: 10px;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    background-color: darkseagreen;
 }
